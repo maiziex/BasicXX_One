@@ -3,7 +3,7 @@ import os
 
 from argparse import ArgumentParser
 
-
+os.system("chmod +x *.sh")
 parser = ArgumentParser(description="Run 10x Basic -- step1: Convert raw fastqs files to 10X fastqs files")
 parser.add_argument('--input_file_prefix','-i',help="Input file prefix")
 parser.add_argument('--output_file_prefix','-o', help="Output file prefix")
