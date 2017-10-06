@@ -20,7 +20,7 @@ if __name__ == "__main__":
     if len(sys.argv) == 1:
         os.system("python BasicXX_One.py -h")
     else:
-        os.system("run_step1-5_One.sh " + args.input_file_prefix + " " + args.output_file_prefix + " " + args.out_dir + " " +args.h5_dir + " " + args.reference + " " + args.barcode_whitelist)
+        os.system("./run_step1-5_One.sh " + args.input_file_prefix + " " + args.output_file_prefix + " " + args.out_dir + " " +args.h5_dir + " " + args.reference + " " + args.barcode_whitelist)
         
 
 
